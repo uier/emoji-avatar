@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.emoji {
+  font-family: "Noto Emoji", sans;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Emoji:wght@300;500;700&display=swap");
