@@ -2,7 +2,7 @@
 import { ref } from "vue";
 import type { Avatar } from "../types";
 
-const props = defineProps<Avatar>();
+const props = defineProps<Omit<Avatar, "id">>();
 
 const avatar = ref<HTMLDataElement | null>(null);
 function download() {
