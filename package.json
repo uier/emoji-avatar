@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@vueuse/core": "^10.2.1",
-    "vue": "^3.2.47",
+    "vue": "^3.3.4",
     "vue-router": "4",
     "vue3-emoji-picker": "^1.1.7"
   },
